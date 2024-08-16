@@ -1,0 +1,18 @@
+body {
+    background-color: #f6fcff;
+    background-image: url(../images/main_bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.character {
+    width: 100%;
+    /* 최대 크기를 부모의 크기로 함 */
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block;, common.css에서 적용했기에 여기서 또 할 필요 x */
+    /* 속성을 강제로 블럭으로 바꿈 */
+    margin-bottom: 40px;
+
+}
